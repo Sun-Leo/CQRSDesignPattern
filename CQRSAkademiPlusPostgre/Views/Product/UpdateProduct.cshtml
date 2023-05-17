@@ -1,0 +1,48 @@
+﻿@model CQRSAkademiPlusPostgre.CQRSPattern.Results.GetProductUpdateQueryResult
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container"> 
+<form method="post">
+    <br /><br />
+    <label>Ürün ID</label>
+    <input type="text" class="form-control" asp-for="ProductID" />
+    <br />
+    <label>Ürün Adı</label>
+    <input type="text" class="form-control" asp-for="ProductName" />
+    <br />
+    <label>Ürün Markası</label>
+    <input type="text" class="form-control" asp-for="ProductBrand" />
+    <br />
+    <label>Ürün Kategorisi</label>
+    <input type="text" class="form-control" asp-for="ProductCategory" />
+    <br />
+    <label>Ürün Stok</label>
+    <input type="text" class="form-control" asp-for="ProductStock" />
+    <br />
+    <label>Ürün Stok Tipi</label>
+    <input type="text" class="form-control" asp-for="ProductStockType" />
+    <br />
+    <label>Ürün Fiyatı</label>
+    <input type="text" class="form-control" asp-for="ProductPrice" />
+    <br />
+    <label>Ürün Vergisi</label>
+    <input type="text" class="form-control" asp-for="Tax" />
+    <br />
+    <label>Ürün Detarikçi</label>
+    <input type="text" class="form-control" asp-for="Publisher" />
+    <br />
+    <label>Son Kullanma Tarihi</label>
+    <input type="text" class="form-control" asp-for="LastUseDate" />
+    <br />
+    <label>Ürün Barkod</label>
+    <input type="text" class="form-control" asp-for="Barcode" />
+    <br />
+    <label>Ürün Rafı</label>
+    <input type="text" class="form-control" asp-for="ShelfNumber" />
+    <br />
+    <button class="btn btn-outline-success">Güncelle</button>
+</form>
+</div>

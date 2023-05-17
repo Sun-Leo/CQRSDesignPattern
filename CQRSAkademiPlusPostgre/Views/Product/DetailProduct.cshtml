@@ -1,0 +1,46 @@
+﻿@model GetProductByIDQueryResult
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <br /><br />
+    <label>Ürün ID</label>
+    <input type="text" class="form-control" asp-for="ProductID" />
+    <br />
+    <label>Ürün Adı</label>
+    <input type="text" class="form-control" asp-for="ProductName" />
+    <br />
+    <label>Ürün Markası</label>
+    <input type="text" class="form-control" asp-for="ProductBrand" />
+    <br />
+    <label>Ürün Fiyatı</label>
+    <input type="text" class="form-control" asp-for="ProductPrice" />
+    <br />
+    <label>Ürün Vergisi</label>
+    <input type="text" class="form-control" asp-for="Tax" />
+    <br />
+    <label>Ürün Kategorisi</label>
+    <input type="text" class="form-control" asp-for="ProductCategory" />
+    <br />
+    <label>Ürün Son Kullanım Tarihi</label>
+    <input type="date" class="form-control" asp-for="LastUseDate" />
+    <br />
+    <label>Ürün Stok</label>
+    <input type="text" class="form-control" asp-for="ProductStock" />
+    <br />
+    <label>Ürün Stok Tipi</label>
+    <input type="text" class="form-control" asp-for="ProductStockType" />
+    <br />
+    <label>Ürün Tedarikçisi</label>
+    <input type="text" class="form-control" asp-for="Publisher" />
+    <br />
+    <label>Ürün Barkod</label>
+    <input type="text" class="form-control" asp-for="Barcode" />
+    <br />
+    <label>Ürün Rafı</label>
+    <input type="text" class="form-control" asp-for="ShelfNumber" />
+    <br />
+</div>

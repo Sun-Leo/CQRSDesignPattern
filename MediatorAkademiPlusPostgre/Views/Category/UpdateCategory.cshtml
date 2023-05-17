@@ -1,0 +1,20 @@
+﻿@model MediatorAkademiPlusPostgre.MediatorDesignPattern.Results.GetCategoryByIDResult
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <form method="post">
+        <label>Kategori ID</label>
+        <input type="text" class="form-control" asp-for="CategoryID" />
+        <br />
+        <label>Kategori Adı</label>
+        <input type="text" class="form-control" asp-for="CategoryName" />
+        <br />
+        <button class="btn btn-outline-primary">Güncelle</button>
+    </form>
+
+</div>
+
